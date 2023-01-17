@@ -1,0 +1,1 @@
+sudo nvme format –s 1 /dev/nvme0n1
