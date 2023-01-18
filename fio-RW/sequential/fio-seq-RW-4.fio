@@ -1,7 +1,7 @@
 ; fio-seq-RW.job for fiotest
 
 [global]
-name=fio-seq-RW
+name=fio-seq-RW-4
 filename=/mnt/SmartSSD/fio-seq-RW-4
 rw=rw
 rwmixread=40

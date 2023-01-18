@@ -1,11 +1,11 @@
 ; fio-rand-RW.job for fiotest
 
 [global]
-name=fio-rand-RW
-filename=/mnt/SmartSSD/fio-rand-RW-GC
+name=fio-rand-RW-4
+filename=/mnt/SmartSSD/fio-rand-RW-4
 rw=randrw
-rwmixread=60
-rwmixwrite=40
+rwmixread=40
+rwmixwrite=60
 bs=4K
 direct=0
 numjobs=1
