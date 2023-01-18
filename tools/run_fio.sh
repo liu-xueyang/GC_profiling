@@ -9,4 +9,6 @@ for file in $(find . -name "*.fio"); do
     fio $file > $result_dir/$file-results
     # sudo fio $file > $result_dir/$file-results
     echo "Saved test results to "$result_dir/$file-results
+    # Delete previous test file and always write to the last 5%
+    rm /mnt/SmartSSD/fio-*
 done

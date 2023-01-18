@@ -19,7 +19,7 @@ ioengine=libaio
 direct=1
 group_reporting
 filename=/mnt/SmartSSD/fioa
-size=3584G
+size=3400G
 
 [sequential-fill]
 description=Sequential fill phase
