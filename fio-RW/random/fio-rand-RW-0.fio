@@ -2,17 +2,17 @@
 
 [global]
 name=fio-rand-RW-0
-filename=/mnt/SmartSSD/fio-rand-RW-0
+filename=/dev/nvme0n1
 rw=randrw
 rwmixread=0
 rwmixwrite=100
 bs=4K
-direct=0
-numjobs=1
+direct=1
+numjobs=4
 time_based
 runtime=600
 
 [file1]
 size=160G
 ioengine=libaio
-iodepth=16
+iodepth=32
