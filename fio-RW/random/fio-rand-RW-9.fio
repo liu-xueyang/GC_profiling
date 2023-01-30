@@ -11,8 +11,10 @@ direct=1
 numjobs=4
 time_based
 runtime=600
+offset=45%
 
 [file1]
 size=160G
 ioengine=libaio
 iodepth=32
+allow_mounted_write=1
